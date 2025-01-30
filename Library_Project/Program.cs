@@ -63,13 +63,13 @@ namespace LibraryProject
                         AddBook();
                         {
                             Book bk = new Book();
-                            Console.Write("BookName : ");
+                            Console.Write("Book Name : ");
                             bk.BookName = Console.ReadLine();
                             Console.Write("Author Name : ");
                             bk.AuthorName = Console.ReadLine();
                             Console.Write("Edition No. : ");
                             bk.Edition = Console.ReadLine();
-                            Console.Write("Cell Phone No. : ");
+                            Console.Write("Phone No. : ");
                             bk.CellPhoneNo = Console.ReadLine();
                             Console.Write("ISBN (5 digits) : ");
                             bk.ISBN = Console.ReadLine();
