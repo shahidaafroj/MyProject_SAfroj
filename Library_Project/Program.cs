@@ -63,7 +63,7 @@ namespace LibraryProject
                         AddBook();
                         {
                             Book bk = new Book();
-                            Console.Write("Book Name : ");
+                            Console.Write("BookName : ");
                             bk.BookName = Console.ReadLine();
                             Console.Write("Author Name : ");
                             bk.AuthorName = Console.ReadLine();
